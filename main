@@ -1,0 +1,14 @@
+import read
+import Train
+import face_login
+import cheating
+# to get the details of student and reading the face
+read.TakeImages()
+# to training the data inot a yml file
+Train.TrainImages()
+#detecting the face for login purpose
+face_login.DetectFace()
+
+print('start your exam')
+#to mark any unfair mean
+cheating.DetectFace()
